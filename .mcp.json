@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sessionstellar": {
+      "command": "npx",
+      "args": ["-y", "@sessionstellar/mcp"]
+    }
+  }
+}

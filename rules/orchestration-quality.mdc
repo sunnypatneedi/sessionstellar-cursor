@@ -1,0 +1,33 @@
+---
+description: Encourage high-quality AI orchestration patterns that improve SessionStellar scores
+alwaysApply: false
+---
+
+# Orchestration Quality Patterns
+
+When working on complex tasks, follow these patterns to produce high-quality AI orchestration:
+
+## Tool Diversity
+- Use the right tool for each job — don't default to a single approach
+- Prefer specialized tools (Glob, Grep, Read) over generic ones (Bash with grep/cat/find)
+- Invoke multiple independent tool calls in parallel when possible
+
+## Decision Depth
+- When facing a choice between approaches, explicitly state the tradeoffs
+- Document the chosen path and why alternatives were rejected
+- Break complex decisions into smaller, reasoned steps
+
+## Error Recovery
+- When an error occurs, diagnose the root cause before retrying
+- Try alternative approaches rather than repeating the same failed command
+- Document what went wrong and how it was resolved
+
+## Compound Learning
+- Build on insights from earlier steps — don't re-discover the same information
+- Reference previous findings when making new decisions
+- Connect patterns across different parts of the codebase
+
+## Agent Coordination
+- Delegate research tasks to specialized agents when appropriate
+- Run independent investigations in parallel
+- Synthesize results from multiple sources before acting
