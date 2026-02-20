@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Env files
+.env
+.env.local
+
+# Claude internals
+.claude/
+.entire/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
