@@ -1,0 +1,30 @@
+# SessionStellar for Cursor
+
+> Score your AI coding sessions for orchestration quality — directly inside Cursor.
+
+SessionStellar scores AI sessions across 5 weighted metrics. Scores run offline — no data leaves your machine.
+
+## Skills
+
+- /score-session: Score the current conversation
+- /score-file [path]: Score an exported session transcript from disk
+
+## MCP Tools
+
+- score_session: Score session content passed as text
+- score_session_file: Score a session file by path
+
+## Metrics
+
+- Skill Diversity (20%): Range of tools and skills invoked
+- Decision Depth (25%): Explicit tradeoffs and reasoning quality
+- Error Recovery (20%): How errors are handled and recovered from
+- Compound Learning (20%): Cross-step insights building on context
+- Orchestration Mastery (15%): Agent coordination and balance
+
+## Links
+
+- Repository: https://github.com/sunnypatneedi/sessionstellar-cursor
+- JS packages: https://github.com/sunnypatneedi/sessionstellar-js
+- Web app: https://sessionstellar.com
+- npm (mcp): https://www.npmjs.com/package/@sessionstellar/mcp
